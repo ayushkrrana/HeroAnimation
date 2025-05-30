@@ -8,7 +8,7 @@ class HeroAnimation extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: InkWell(
+        child: InkWell( // we use inkwell here because it provides a ripple effect when i click on the image
           onTap: () {
             Navigator.push(
               context,
